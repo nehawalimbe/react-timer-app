@@ -1,0 +1,26 @@
+React Timer Apps Notes
+useEffect is used for below :- 
+timer
+API Callssubsciptions
+DOM operations
+
+setInterval method :-
+runs every 1000ms
+
+clearInterval method :-
+Without cleanup :-
+multiple timers are created and memoty leaks happen
+
+"The cleanup function inside useEffect runs before the effect re-executes and when the component unmounts."
+
+Props are inputs passed from parent component to child component. In TypeScript, we define prop types for type safety. 
+
+One-way data binding / unidirectional data flow.
+
+How do you type props for a functional component?
+type Props = {
+  label: string;
+  onClick: () => void;
+};
+
+Typing component props in TypeScript
